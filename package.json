@@ -8,8 +8,8 @@
     "email": "Neablis121@gmail.com"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/mitchelldemarco/Projects.git"
+   "type": "git",
+   "url": "git@github.com:Neablis/noPach.git"
   },
   "bugs": {
     "url": "git://github.com/mitchelldemarco/Projects/issues"
