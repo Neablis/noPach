@@ -2,7 +2,7 @@
   "name": "noPach",
   "description": "A Node reproduction of basic apache for command line server hosting",
   "version": "0.1.0",
-  "homepage": "git://github.com/mitchelldemarco/Projects",
+  "homepage": "https://github.com/Neablis/noPach",
   "author": {
     "name": "Mitchell",
     "email": "Neablis121@gmail.com"
@@ -12,7 +12,7 @@
     "url": "git@github.com:Neablis/noPach.git"
   },
   "bugs": {
-    "url": "git://github.com/mitchelldemarco/Projects/issues"
+    "url": "git://github.com/Neablis/noPach/issues"
   },
   "licenses": [
     {
