@@ -1,0 +1,39 @@
+.TH "NOPACH" "" "July 2013" "" ""
+.SH "NAME"
+\fBnoPach\fR
+.P
+A Node reproduction of basic apache for command line server hosting
+.SH Getting Started
+.P
+Install the module with: \fBnpm install noPach\fR
+.P
+.RS 2
+.EX
+var noPach = require(\'noPach\');
+noPach\.awesome(); // "awesome"
+.EE
+.RE
+.SH Documentation
+.P
+\fI(Coming soon)\fR
+.SH Examples
+.P
+\fI(Coming soon)\fR
+.SH Contributing
+.P
+In lieu of a formal styleguide, take care to maintain the existing coding style\. Add unit tests for any new or changed functionality\. Lint and test your code using Grunt \fIhttp://gruntjs\.com/\fR\|\.
+.SH Release History
+.P
+\fI(Nothing yet)\fR
+.SH License
+.P
+Copyright (c) 2013 Mitchell  
+.TH "LICENSED" "" "July 2013" "" ""
+.SH "NAME"
+\fBLicensed\fR
+.TH "NOPACH" "" "July 2013" "" ""
+.SH "NAME"
+\fBnoPach\fR
+.P
+A Node reproduction of basic apache for command line server hosting
+
