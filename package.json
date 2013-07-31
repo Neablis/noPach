@@ -1,5 +1,5 @@
 {
-  "name": "noPach",
+  "name": "nopach",
   "description": "A Node reproduction of basic apache for command line server hosting",
   "version": "0.1.0",
   "homepage": "https://github.com/Neablis/noPach",
@@ -17,14 +17,14 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "git://github.com/mitchelldemarco/Projects/blob/master/LICENSE-MIT"
+      "url": "git://github.com/Neablis/noPach/blob/master/LICENSE-MIT"
     }
   ],
   "dependencies": {
     "portfinder": "0.2.x",
-    "optimist": "0.8.x"
+    "optimist": ">= 0.1.0"
   },
-  "main": "lib/noPach",
+  "main": "lib/nopach",
   "engine": "node >= 0.10.0",
   "scripts": {
     "test": "grunt nodeunit"
@@ -33,14 +33,13 @@
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.4.0",
-    "grunt": "~0.4.1",
-    "commander": "~2.0.0"
+    "grunt": "~0.4.1"
   },
   "keywords": [
     "server"
   ],
   "preferGlobal": "true",
   "bin": {
-    "noPach": "lib/noPach.js"
+    "nopach": "lib/nopach.js"
   }
 }
