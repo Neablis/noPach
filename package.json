@@ -1,0 +1,43 @@
+{
+  "name": "noPach",
+  "description": "A Node reproduction of basic apache for command line server hosting",
+  "version": "0.1.0",
+  "homepage": "git://github.com/mitchelldemarco/Projects",
+  "author": {
+    "name": "Mitchell",
+    "email": "Neablis121@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mitchelldemarco/Projects.git"
+  },
+  "bugs": {
+    "url": "git://github.com/mitchelldemarco/Projects/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "git://github.com/mitchelldemarco/Projects/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+
+    "portfinder": 0.2.x
+  },
+  "main": "lib/noPach",
+  "engine": "node >= 0.10.0",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": ["server"],
+  "preferGlobal": "true",
+  "bin": {
+      "calc" : "lib/calc.js"
+  }
+}
