@@ -8,8 +8,8 @@
     "email": "Neablis121@gmail.com"
   },
   "repository": {
-   "type": "git",
-   "url": "git@github.com:Neablis/noPach.git"
+    "type": "git",
+    "url": "git@github.com:Neablis/noPach.git"
   },
   "bugs": {
     "url": "git://github.com/mitchelldemarco/Projects/issues"
@@ -21,8 +21,8 @@
     }
   ],
   "dependencies": {
-
-    "portfinder": 0.2.x
+    "portfinder": "0.2.x",
+    "optimist": "0.8.x"
   },
   "main": "lib/noPach",
   "engine": "node >= 0.10.0",
@@ -33,11 +33,14 @@
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.4.0",
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "commander": "~2.0.0"
   },
-  "keywords": ["server"],
+  "keywords": [
+    "server"
+  ],
   "preferGlobal": "true",
   "bin": {
-      "calc" : "lib/calc.js"
+    "noPach": "lib/noPach.js"
   }
 }
