@@ -5,16 +5,11 @@ A Node reproduction of basic apache for command line server hosting
 ## Getting Started
 Install the module with: `npm install noPach`
 
-```javascript
-var noPach = require('noPach');
-noPach.awesome(); // "awesome"
-```
-
 ## Documentation
 _(Coming soon)_
 
 ## Examples
-_(Coming soon)_
+nopach --port <8000+> --https <1||0> --dir <directory> --pub <public key> --priv <private key>
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
